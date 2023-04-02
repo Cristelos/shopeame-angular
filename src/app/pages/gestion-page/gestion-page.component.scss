@@ -1,0 +1,30 @@
+.contenedor{
+    padding: 0px 30px;
+    letter-spacing: 0.0275em;
+    &__title{
+        font-size: 0.9rem;
+        margin-bottom: 20px;
+    }
+}
+.formulario{
+    font-size: 14px;
+    line-height: 143%;
+    display: flex;
+    flex-direction: column;
+    width: 520px;
+    gap: 10px;
+    &__input{
+        padding: 5px;
+    }
+    &__button{
+        padding: 8px;
+        background: #F89F21;
+        border: 1px solid #F89F21;
+        border-radius: 4px;
+        color: #ffffff;
+        cursor: pointer;
+        width: 120px;
+        position: relative;
+        left: 77%;
+    }
+}
