@@ -1,2 +1,14 @@
-<p>productos-page works!</p>
-{{text}}
+<div class="contenedor">
+    <div class="contenedor__title">
+        <h2> Listado de productos ({{productsAmount}})</h2>
+    </div>
+    <div class="contenedor__cajas">
+        <div *ngFor="let item of product" class="contenedor__caja">
+            <img src="{{item.image}}" alt="{{item.name}}" class="contenedor__caja-img">
+            <p class="contenedor__caja-nombre">{{item.name}}</p>
+            <h3 class="contenedor__caja-precio">{{item.price}}€</h3>
+            <p class="contenedor__caja-descrip">{{item.description}}</p>
+            <p>{{item.stars}}</p>
+        </div>
+    </div>
+</div>

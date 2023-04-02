@@ -12,5 +12,8 @@ export class DatosService {
   setText(newValue:string){
     this.text = newValue;
   }
+  getText(){
+    return this.text
+  }
 
 }

@@ -11,6 +11,7 @@ import { FooterComponent } from './shared/components/footer/footer.component';
 import { MainComponent } from './shared/components/main/main.component';
 import { FormsModule } from '@angular/forms';
 import { ProductoComponent } from './pages/productos-page/producto/producto.component';
+import { HttpClientModule } from '@angular/common/http';
 
 @NgModule({
   declarations: [
@@ -26,7 +27,8 @@ import { ProductoComponent } from './pages/productos-page/producto/producto.comp
   imports: [
     BrowserModule,
     AppRoutingModule,
-    FormsModule
+    FormsModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]

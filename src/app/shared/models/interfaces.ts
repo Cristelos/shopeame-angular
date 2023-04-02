@@ -1,0 +1,13 @@
+export interface ProductI {
+    id: number,
+    image: string,
+    name: string,
+    price: any,
+    description: string,
+    stars: any
+}
+
+export interface ImageI {
+    src: string,
+    alt: string
+}

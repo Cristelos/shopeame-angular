@@ -1,0 +1,42 @@
+.contenedor{
+    padding: 0px 30px;
+    letter-spacing: 0.0275em;
+    &__title{
+        font-size: 0.9rem;
+        margin-bottom: 20px;
+    }
+    &__cajas{
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: space-around;
+    }
+    &__caja{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        justify-content: flex-end;
+        align-items: flex-start;
+        width: 250px;
+        height: 370px;
+        border: 1px solid #eeeeee;
+        padding: 10px 15px;
+        margin: 3px;
+    }
+    &__caja-img{
+        max-width: 220px;
+    }
+    &__caja-nombre{
+        margin-top: 10px;
+        font-weight: 500;
+        line-height: 150%;
+    }
+    &__caja-precio{
+        font-size: 1.5rem;
+    }
+    &__caja-descrip{
+        font-weight: 300;
+        font-size: 1rem;
+        margin-top: 5px;
+    }
+}
