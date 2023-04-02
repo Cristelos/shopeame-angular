@@ -29,12 +29,23 @@
         flex-direction: column;
         align-items: center;
         text-align: center;
+        font-size: 14px;
+        gap: 5px;
+        padding: 8px 27px;
+    }
+    &__menu-lista-content:hover{
+        background: rgba(235, 242, 255, 0.3);
+        border-radius: 10px;
+        color: #00579F;
     }
     &__menu-img{
-        width: 30px;
+        width: 26px;
     }
     &__menu-enlaces{
         text-decoration: none;
         color: #444444;
+    }
+    &__menu-enlaces:hover{
+        color: #00579F;
     }
 }

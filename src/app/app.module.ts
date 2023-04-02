@@ -8,6 +8,7 @@ import { ProductosPageComponent } from './pages/productos-page/productos-page.co
 import { GestionPageComponent } from './pages/gestion-page/gestion-page.component';
 import { HeaderComponent } from './shared/components/header/header.component';
 import { FooterComponent } from './shared/components/footer/footer.component';
+import { MainComponent } from './shared/components/main/main.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { FooterComponent } from './shared/components/footer/footer.component';
     ProductosPageComponent,
     GestionPageComponent,
     HeaderComponent,
-    FooterComponent
+    FooterComponent,
+    MainComponent
   ],
   imports: [
     BrowserModule,
