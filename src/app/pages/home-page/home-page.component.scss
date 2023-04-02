@@ -1,0 +1,19 @@
+.home{
+    display: flex;
+    flex-direction: column;
+    letter-spacing: 0.0275em;
+    line-height: 150%;
+    &__titulo{
+        font-weight: 700;
+        font-size: 24px;
+        text-align: center;
+        margin-bottom: 65px;
+    }
+    &__text-titulo{
+        margin-top: 30px;
+        margin-bottom: 25px;
+    }
+    &__text-texto{
+        font-weight: 300;
+    }
+}
