@@ -1,0 +1,40 @@
+.header{
+    &__logo{
+        background-color: #ffffff;
+        height: 100px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+    &__logo-img{
+        width: 200px;
+    }
+    &__menu{
+        height: 72px;
+        background-color: #FFC970;
+        display: flex;
+        flex-wrap: wrap;
+        align-content: center;
+        justify-content: center;
+    }
+    &__menu-lista{
+        display: flex;
+        justify-content: center;
+        gap: 40px;
+        list-style: none;
+    }
+    &__menu-lista-content{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    &__menu-img{
+        width: 30px;
+    }
+    &__menu-enlaces{
+        text-decoration: none;
+        color: #444444;
+    }
+}
