@@ -10,6 +10,7 @@ import { HeaderComponent } from './shared/components/header/header.component';
 import { FooterComponent } from './shared/components/footer/footer.component';
 import { MainComponent } from './shared/components/main/main.component';
 import { FormsModule } from '@angular/forms';
+import { ProductoComponent } from './pages/productos-page/producto/producto.component';
 
 @NgModule({
   declarations: [
@@ -19,7 +20,8 @@ import { FormsModule } from '@angular/forms';
     GestionPageComponent,
     HeaderComponent,
     FooterComponent,
-    MainComponent
+    MainComponent,
+    ProductoComponent
   ],
   imports: [
     BrowserModule,
