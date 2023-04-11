@@ -9,7 +9,7 @@ import { ProductI } from 'src/app/shared/models/interfaces';
   styleUrls: ['./productos-page.component.scss']
 })
 export class ProductosPageComponent  {
-   
+  searchProduct: string = "";
   product!: ProductI[];
   productsAmount!: number;
 
