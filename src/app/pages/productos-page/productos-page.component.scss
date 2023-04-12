@@ -18,6 +18,11 @@
         flex-direction: column;
         align-items: flex-end;
     }
+    &__dosIconos{
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+    }
     &__iconos{
         width: 33%;
         margin: 0px 3px 6px 0;
@@ -43,7 +48,10 @@
         margin: 3px;
     }
     &__caja-img{
-        max-width: 220px;
+        width: 100%;
+        object-fit: cover;
+        overflow: hidden;
+    
     }
     &__caja-nombre{
         margin-top: 10px;
@@ -57,5 +65,32 @@
         font-weight: 300;
         font-size: 1rem;
         margin-top: 5px;
+    }
+    &__editar{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        flex-direction: row;
+        align-items: center;
+        margin: 8px 2px;
+        width: 100%;
+    }
+    &__boton{
+        background: #FFFFFF;
+        border: 1px solid #9DC2FF;
+        border-radius: 4px;
+        align-items: center;
+        text-align: center;
+        letter-spacing: 0.018em;
+        color: #2264D1;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 143%;
+        cursor: pointer;
+        padding: 5px 15px;
+    }
+    &__boton:hover{
+        box-shadow: 2px 3px 4px 0px #9dc2ff5c;
     }
 }

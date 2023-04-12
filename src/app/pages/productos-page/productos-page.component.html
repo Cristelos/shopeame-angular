@@ -4,7 +4,7 @@
             <h2> Listado de productos ({{productsAmount}})</h2>
         </div>
         <div class="contenedor__buscador">
-            <div>
+            <div class="contenedor__dosIconos">
                 <button class="contenedor__iconos">
                     <img src="./assets/img/lista.png" alt="Logo lista">
                 </button>
@@ -21,7 +21,10 @@
             <p class="contenedor__caja-nombre">{{item.name}}</p>
             <h3 class="contenedor__caja-precio">{{item.price}}€</h3>
             <p class="contenedor__caja-descrip">{{item.description}}</p>
-            <p>{{item.stars}}</p>
+            <div class="contenedor__editar">
+                <div><p-rating [readonly]="true" [cancel]="false">{{item.stars}}</p-rating></div>
+                <div><button class="contenedor__boton">Editar</button></div>
+            </div>
         </div>
     </div>
 </div>

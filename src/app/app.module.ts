@@ -12,6 +12,7 @@ import { MainComponent } from './shared/components/main/main.component';
 import { FormsModule } from '@angular/forms';
 import { ProductoComponent } from './pages/productos-page/producto/producto.component';
 import { HttpClientModule } from '@angular/common/http';
+import { RatingModule } from 'primeng/rating';
 
 @NgModule({
   declarations: [
@@ -28,7 +29,8 @@ import { HttpClientModule } from '@angular/common/http';
     BrowserModule,
     AppRoutingModule,
     FormsModule,
-    HttpClientModule
+    HttpClientModule,
+    RatingModule
   ],
   providers: [],
   bootstrap: [AppComponent]
